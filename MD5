@@ -1,12 +1,12 @@
-42e68cd180d3863e4e2ad9672f77f512 *DESCRIPTION
+c4b34e23bde0985718533edce0ac953c *DESCRIPTION
 f37bfdeb7da6642e0768488c448737c4 *NAMESPACE
 c881045c5bc75adf4f677c04bc430b94 *R/PeltR6.R
 e726b01145fae43253fa4713106d4e51 *R/WindowR6.R
 21570df390a4fc4a9bf13a6edf324943 *R/binSegR6.R
 3fca6ea1c392eae2bede514440bb5a5e *R/costFuncR6.R
 d7f676ba3042d6832a05f8d3a41ba629 *R/rupturesRcpp-package.R
-85bb366a24d6c4a94136819644080284 *R/zzz.R
-4e2ca5d9ed03fcec77d6dd311eec8b48 *README.md
+f7f7e49285bf9efa04209f9c4d7dc05a *R/zzz.R
+02717c3c3ac6a27aadd1420f9a3f9812 *README.md
 33b07a02b5efc631b8e4429e41106f35 *man/PELT.Rd
 8812b2b173cc4d3354ef093512519f4c *man/Window.Rd
 d3cb546022bf3c6b41b86b561ed82f66 *man/binSeg.Rd
@@ -22,7 +22,7 @@ c89d6b95d18721894ab45341d0fbc7a6 *src/Makevars.win
 0d88ef3f6e28aac925dbcd12142f3b78 *src/RcppExports.cpp
 36d2dbd009aba4fb71de21fe7aa31074 *src/SIGMA.cpp
 1f4152d5094ac0121281eef88ac6b996 *src/SIGMA.h
-ea00ba2f5648aabbe9e50c851ae4ecd9 *src/VAR.cpp
+a5899ffdd9e320312a2a83cc06f09ccc *src/VAR.cpp
 d37504baba5a412cb1c6e354f6eb3700 *src/VAR.h
 70b114a2e186ef3c464e17bf137feccf *src/baseClass.h
 cbe352c35e59468b5e2d88b9bcb234c4 *src/tmplBinSeg.cpp

@@ -1,7 +1,7 @@
 Package: rupturesRcpp
 Type: Package
 Title: Object-Oriented Interface for Offline Change-Point Detection
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: 
     c(
       person("Minh Long", "Nguyen", , "edelweiss611428@gmail.com", role = c("aut", "cre")),
@@ -19,10 +19,10 @@ Config/testthat/edition: 3
 Collate: 'costFuncR6.R' 'PeltR6.R' 'WindowR6.R' 'binSegR6.R'
         'rupturesRcpp-package.R' 'zzz.R'
 NeedsCompilation: yes
-Packaged: 2025-11-21 20:47:53 UTC; edelweiss
+Packaged: 2025-11-23 03:41:57 UTC; edelweiss
 Author: Minh Long Nguyen [aut, cre],
   Toby Hocking [aut],
   Charles Truong [aut]
 Maintainer: Minh Long Nguyen <edelweiss611428@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-11-22 15:30:02 UTC
+Date/Publication: 2025-11-23 22:10:02 UTC
