@@ -1,10 +1,14 @@
 # Welcome to rupturesRcpp
 
-[![R-CMD-check](https://github.com/edelweiss611428/rupturesRcpp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/edelweiss611428/rupturesRcpp/actions/workflows/R-CMD-check.yaml) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/edelweiss611428/rupturesRcpp/graphs/commit-activity) [![codecov](https://codecov.io/gh/edelweiss611428/rupturesRcpp/branch/main/graph/badge.svg)](https://app.codecov.io/gh/edelweiss611428/rupturesRcpp)
+[![R-CMD-check](https://github.com/edelweiss611428/rupturesRcpp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/edelweiss611428/rupturesRcpp/actions/workflows/R-CMD-check.yaml) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/edelweiss611428/rupturesRcpp/graphs/commit-activity) [![rupturesRcpp status badge](https://edelweiss611428.r-universe.dev/rupturesRcpp/badges/version)](https://edelweiss611428.r-universe.dev/rupturesRcpp)
+[![CRAN Version](https://www.r-pkg.org/badges/version/rupturesRcpp)](https://CRAN.R-project.org/package=rupturesRcpp) 
+[![CRAN Downloads](https://cranlogs.r-pkg.org/badges/rupturesRcpp)](https://CRAN.R-project.org/package=rupturesRcpp) [![codecov](https://codecov.io/gh/edelweiss611428/rupturesRcpp/branch/main/graph/badge.svg)](https://app.codecov.io/gh/edelweiss611428/rupturesRcpp)
 
 ## Description
 
 <p>The R package provides an efficient, object-oriented R6 interface for offline change point detection, implemented in C++ for high performance. This was created as part of the Google Summer of Code 2025 program (see <a href="https://github.com/edelweiss611428/rupturesRcpp/blob/gsoc-2025/README.md">edelweiss611428/rupturesRcpp at gsoc-2025</a> for the project archive).</p>
+
+A Colab notebook, <a href="https://colab.research.google.com/drive/13EH4MiJsldD8Ck_tn_58wsHotu_GTP4K?usp=sharing">rupturesRcpp usage</a>, is provided for learning purpose.
 
 <pre>
 +------------------------------------------------------------+
@@ -219,16 +223,13 @@ binSegObj$plot(d = 1L,
 
 ## Future development
 
-- Increase testing for robustness and correctness of existing modules (e.g., mathematical correctness, time complexities).
 - Improve the `"L1"` cost module, potentially allowing queries in `O(log(n))` time using data structures such as a persistent segment tree with `O(nlog(n))` precomputation.
-- Clean and enhance the existing object-oriented interface for improved efficiency, robustness, and accessibility.
+- Clean and enhance the existing object-oriented interface for improved efficiency, robustness, and accessibility (see https://github.com/edelweiss611428/R6BinSeg/tree/main for an idea).
 - Implement additional cost functions (e.g., `"Poisson"` and `"Linear-L1"`). 
 - Implement other offline change-point detection classes (e.g., `Opt` and `BottomUp`).
 - Enhance existing `$eval()` methods for parameter estimation.
 - Develop a `costFactory` class for users focusing solely on fast cost computation and parameter estimation.
 - Improve `$plot()` method for models involving both dependent and independent variables.
-- Provide instructions for future contributors.
-
 
 ## Contributing
 
